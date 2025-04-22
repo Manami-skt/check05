@@ -17,4 +17,6 @@ class CheckController extends Controller
     public function thanks() {
         return view('thanks');
     }
+
+    
 }

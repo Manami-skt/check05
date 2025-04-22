@@ -22,9 +22,9 @@
         </header>
         <div class="register-form__content">
             <div class="register-form__heading">
-                <h2>会員登録</h2>
+                <h2>Register</h2>
             </div>
-            <form class="form" method="post">
+            <form class="form" method="post" action="/register">
                 @csrf
                 <div class="form__group">
                     <div class="form__group-title">
